@@ -1,0 +1,25 @@
+{
+    "format_version": 2,
+    "tooth": "github.com/dreamguxiang/Glacie-Release",
+    "version": "0.1.0",
+    "info": {
+        "name": "Glacie",
+        "description": "A protocol compability plugin for LeviLamina",
+        "author": "dreamguxiang",
+        "tags": [
+            "protocol",
+            "levilamina"
+        ]
+    },
+    "dependencies": {
+        "github.com/LiteLDev/LeviLamina": "0.13.x"
+    },
+    "files": {
+        "place": [
+            {
+                "src": "Glacie/*",
+                "dest": "plugins/Glacie/"
+            }
+        ]
+    }
+}
